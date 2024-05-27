@@ -9,7 +9,7 @@ const minnum = document.querySelector(".minnumber"),
       getgameform = document.getElementById('gameform');
 
 const min = 1,
-max = 20,
+max = 10,
 winningnum = randomnum(min,max)
 
 let gameleft = 3;
