@@ -33,7 +33,7 @@ getbtn.addEventListener('click',function(e){
 	if(guess === winningnum){
 
 		
-		gameover(true,`${winningnum} is correct! You Won `)
+		gameover(true,`${winningnum} is correct! You Won !!!`)
 
 	}else{
 
@@ -41,12 +41,12 @@ getbtn.addEventListener('click',function(e){
 
 		if(gameleft == 0){
 			
-			gameover(false,`Game over , You lost , the correct number is ${winningnum}`);
+			gameover(false,`Game over. You lost :( the correct number is ${winningnum}.`);
 
 		}else{
 
 			
-			setmessage1(`${guess} is not correct , ${gameleft} guess left.`,"blue")
+			setmessage1(`${guess} is not correct. ${gameleft} guess left.`,"red")
 
 			getinput.value = "";
 
